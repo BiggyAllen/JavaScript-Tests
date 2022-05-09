@@ -7,4 +7,4 @@ var minutes = today.getMinutes();
 var seconds = today.getSeconds();
 var meridiem = (hours >= 12)? " PM ":" AM ";
 hours = (hours > 12)? hours - 12: hours;
-console.log("Current Time: "+hours + meridiem + " : " + minutes + " : " + seconds);
+console.log("Current Time: " + hours + " : " + minutes + " : " + seconds + meridiem);
